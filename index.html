@@ -8,7 +8,7 @@
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(navigator.userAgent)) {
       var meta = document.createElement('meta');
       meta.httpEquiv = "viewport";
-      meta.content = "initial-scale=0.5, maximum-scale=0.5, user-scalable=no";
+      meta.content = "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no";
       document.getElementsByTagName('head')[0].appendChild(meta);
     } else {
       var meta = document.createElement('meta');
