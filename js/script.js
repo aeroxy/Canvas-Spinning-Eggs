@@ -13,11 +13,6 @@ var ball2 = {x:0, y:0};
 var ball3 = {x:0, y:0};
 var speed = 0.02;
 
-console.log('width = '+canvas.width);
-console.log('height = '+canvas.height);
-console.log('sin1: ' + Math.sin(circle.angle1));
-console.log('sin2: ' + Math.sin(circle.angle2));
-console.log('sin3: ' + Math.sin(circle.angle3));
 function drawEgg1(){
   ball1.x = circle.centerX + Math.cos(circle.angle1) * circle.radius;
   ball1.y = circle.centerY + Math.sin(circle.angle1) * (circle.radius-50);
